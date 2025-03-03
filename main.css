@@ -1,0 +1,135 @@
+html, body{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	color: #8D756A;
+	background: White;
+	letter-spacing: 0px;
+	word-spacing: 2px;
+	font-size: 0.9em;
+	font-family: tahoma;
+	background-image: url(./bg_gradient.gif);
+	background-repeat: repeat-x;
+}
+h1{
+	margin: 0px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: #8D756A;
+	letter-spacing: 1px;
+}
+h2{
+	text-align: center;
+  font-size: 1.7em;
+  font-weight: 900;
+	color: #8D756A;
+}
+h3{
+	text-align: center;
+  font-size: 1.5em;
+  font-weight: 900;
+	color: #8D756A;
+}
+cite{
+  font-weight:900;
+  font-style: normal;
+}
+p{
+  clear: both;
+}
+.header{
+  height: 282px;
+  padding: 20px;
+	background-image: url(./bg_husle.jpg);
+	background-repeat: no-repeat;
+}
+.menu{
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  position: absolute;
+  top: 90px;
+  width: 580px;
+  _width: 100%;
+  text-align: center;
+}
+.menu ul{
+  width: 580px;
+	margin: 0px;
+	padding: 0px;
+  height: 20px;
+  border-bottom: 1px solid #ede;
+}
+.menu li{
+  display: inline;
+  list-style-type: none
+}
+.menu a{
+  margin: 2px;
+  display: block;
+  width: 19%;
+  float: left;
+  text-decoration: none;
+  color: #EEBDA8;
+  font-weight: 900;
+  font-size: 1  em;
+  letter-spacing: 0.1em;
+  margin-top: 1px;
+}
+.img-spolu{
+ width: 600px;
+ text-align: center;
+}
+ul.names{
+  width: 600px;
+	margin: 0px;
+	padding: 0px;
+  height: 20px;
+}
+ul.names li{
+  display: block;
+  list-style-type: none;
+  text-align: center;
+  width: 25%;
+  float: left;
+  font-size: 0.8em;
+}
+.menu a:visited, .menu a:link{
+  text-decoration: none;
+  color: #EEBDA8;
+  font-weight: 900;
+  font-size: 1  em;
+  letter-spacing: 0.1em;
+}
+.menu a:hover{
+  text-decoration: none;
+  color: #F97F4B;
+  font-weight: 900;
+  font-size: 1  em;
+  margin-top: 0px;
+  letter-spacing: 0.1em;
+  border-top: 1px solid #ede;
+}
+.content{
+	position: absolute;
+	top: 103px;
+	width: 100%;
+	text-align: center;
+	left: 3px;
+}
+.text{
+  left: 0px;
+  right: 0px;
+  margin: auto;
+  padding: 20px;
+  width: 700px;
+  font-size: 0.75em;
+	font-family: verdana;
+  text-align: justify;
+}
+.kontakt{
+	margin-top: 30px;
+	margin-left: 150px;
+}
